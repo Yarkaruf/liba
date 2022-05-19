@@ -1,0 +1,27 @@
+.table{
+	margin-top: 34px;
+	padding-left: 24px;
+	display: grid;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+}
+.thead{
+	display: grid;
+	grid-template-columns: repeat(10, minmax(150px, 1fr));
+	grid-template-rows: 30px;
+	color: #818386ae;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	border-bottom: 1px solid #E1E3E6;
+}
+.tbody{
+	display: grid;
+	grid-template-columns: repeat(10,minmax(350px,1fr));
+	border-bottom: 1px solid #E1E3E6;
+	border: solid 1px rgba(0, 0, 0, 0.278);
+}
+.item{
+	border: solid 1px rgba(0, 0, 0, 0.278);
+}
